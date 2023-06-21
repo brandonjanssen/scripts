@@ -32,7 +32,7 @@ nala install feh git pipewire-pulse pipewire pipewire-jack pipewire-bin pipewire
 # FOR DWM
 # libx11-dev libxft-dev libxinerama-dev -y
 # Installing Other less important Programs
-nala install neofetch flameshot psmisc mangohud lxappearance lxappearance fonts-noto-color-emoji lightdm lightdm-gtk-greeter htop btop  -y
+nala install neofetch flameshot psmisc mangohud lolcat mpv yt-dlp ytfzf moc ffmpegthumbnailer python3-psutil python3-pip python3-pil lm-sensors fancontrol lxappearance fonts-noto-color-emoji lightdm lightdm-gtk-greeter htop btop  -y
 
 # Download Nordic Theme
 cd /usr/share/themes/
@@ -71,7 +71,7 @@ nala install brave-browser -y
 nala install curl lsb-release wget -y
 curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
 
-deb-get install bat lsd caprine du-dust duf fastfetch fd hugo libreoffice obs-studio obsidian rpi-imager -y
+deb-get install bat lsd caprine du-dust duf fastfetch fd hugo obsidian rpi-imager -y
 # Enable graphical login and change target from CLI to GUI
 systemctl enable lightdm
 systemctl set-default graphical.target
