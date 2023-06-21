@@ -32,7 +32,7 @@ nala install feh git pipewire-pulse pipewire pipewire-jack pipewire-bin pipewire
 # FOR DWM
 # libx11-dev libxft-dev libxinerama-dev -y
 # Installing Other less important Programs
-nala install neofetch flameshot psmisc mangohud lolcat mpv yt-dlp ytfzf moc ffmpegthumbnailer python3-psutil python3-pip python3-pil lm-sensors fancontrol lxappearance fonts-noto-color-emoji lightdm lightdm-gtk-greeter htop btop  -y
+nala install neofetch flameshot psmisc mangohud lolcat bibata-cursor-theme big-cursor mpv yt-dlp ytfzf moc ffmpegthumbnailer python3-psutil python3-pip python3-pil lm-sensors fancontrol lxappearance fonts-noto-color-emoji lightdm lightdm-gtk-greeter htop btop  -y
 
 # Download Nordic Theme
 cd /usr/share/themes/
